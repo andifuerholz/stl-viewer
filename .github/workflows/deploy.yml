@@ -3,6 +3,7 @@ name: Deploy STL Viewer to GitHub Pages
 on:
   push:
     branches: ["main"]
+  workflow_dispatch: # Ermöglicht das manuelle Starten per Button
 
 # Berechtigungen für GITHUB_TOKEN setzen
 permissions:
